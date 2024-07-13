@@ -1,2 +1,3 @@
-Project Name : Inventory Management System 
-Verstion : 1.00 
+#Project Name : Inventory Management System 
+
+#Verstion : 1.00 
