@@ -13,12 +13,12 @@ const Main = () => {
                 toggle ?
                     <div className="h-screen flex bg-base-100">
                         {/* sidebar */}
-                        <div className="w-60 py-2 h-screen fixed border-r">
+                        <div className="w-60 py-2 h-screen lg:block fixed hidden border-r">
                             <Sidebar />
                         </div>
 
                         {/* Main content */}
-                        <div className="content ml-60 w-full ">
+                        <div className="content lg:ml-60 w-full ml-0">
                             {/* header area */}
                             <div className="p-2 fixed bg-white w-full">
                                 <div className="grid grid-cols-2">
@@ -41,7 +41,6 @@ const Main = () => {
                         </div>
                     </div>
                     :
-
                     <div className="h-screen flex bg-base-100">
                         {/* sidebar */}
                         <div className="w-16 py-2 h-screen fixed border-r">
