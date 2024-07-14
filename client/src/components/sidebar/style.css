@@ -1,0 +1,71 @@
+.menu {
+    padding: 0;
+
+}
+
+ul {
+    margin-inline-start: 0 !important;
+}
+
+.menu li {
+    margin: .6rem 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.menu li a.active:before {
+    content: "";
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    background-color: #438a7a;
+    position: absolute;
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.menu li .active {
+    background: (66, 138, 121, .3) !important;
+    background: linear-gradient(90deg, rgba(66, 138, 121, .1) 30%, transparent 100%) !important;
+    color: #438a7a !important;
+    border-radius: 0 !important;
+
+}
+
+/*  */
+.menu li :hover {
+    background-color: transparent !important;
+
+}
+
+.menu li a:hover,
+.menu summary:hover {
+
+    color: #438a7a !important;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+
+}
+
+.menu li .hasDropdown li {
+    margin: .2rem 0;
+}
+
+/*  */
+
+.menu :where(li > details > summary):after,
+.menu :where(li > .menu-dropdown-toggle):after {
+    justify-self: end;
+    display: block;
+    margin-top: .1rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    transform: rotate(315deg);
+    transition-property: transform, margin-top;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
+    transform-origin: 75% 75%;
+    box-shadow: 1px 1px;
+    pointer-events: none;
+}
