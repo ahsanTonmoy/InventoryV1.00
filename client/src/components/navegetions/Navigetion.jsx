@@ -7,7 +7,7 @@ const Navigetion = () => {
             {/* others */}
             <div className="">
                 {/* user */}
-                <div className="flex gap-2">
+                <div className="flex gap-2 justify-end">
                     <div className="form-control">
                         <input type="text" placeholder="Search" className="input input-bordered max-w-fit" />
                     </div>

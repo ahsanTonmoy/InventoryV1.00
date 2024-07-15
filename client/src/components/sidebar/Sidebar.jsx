@@ -89,7 +89,7 @@ const Sidebar = () => {
     </>
     return (
         <div>
-            <div className="w-full">
+            <div className="w-full ">
                 {/* Brand */}
                 <div className="brand h-12 p-2 flex justify-center gap-2">
                     <div className="">
@@ -106,7 +106,11 @@ const Sidebar = () => {
                         {Menus}
                     </ul>
                 </div>
+
+                <div className="">flglg</div>
             </div>
+
+            
         </div>
     );
 };
