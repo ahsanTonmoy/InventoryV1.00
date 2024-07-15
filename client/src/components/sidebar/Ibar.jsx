@@ -1,17 +1,16 @@
 import { NavLink } from 'react-router-dom';
 import brand from '../../assets/image/brand/icons8-inventory-32.png'
-import { FaTachometerAlt } from "react-icons/fa";
-import './style.css'
+import { LiaTachometerAltSolid } from "react-icons/lia";import './style.css'
 const Ibar = () => {
     const Menus = <>
         {/*  */}
-        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><FaTachometerAlt /></span></NavLink>
+        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><LiaTachometerAltSolid /></span></NavLink>
         </li>
         {/*  */}
-        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><FaTachometerAlt /></span></NavLink>
+        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><LiaTachometerAltSolid /></span></NavLink>
         </li>
         {/*  */}
-        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><FaTachometerAlt /></span></NavLink>
+        <li className='text-lg capitalize font-medium'><NavLink className={'navItem'} to={'/eee'} title='deshboaer'><span className='px-1'><LiaTachometerAltSolid /></span></NavLink>
         </li>
 
     </>

@@ -1,39 +1,31 @@
-import { useState } from "react";
-
+import { MdAddToQueue } from "react-icons/md";
+import { TbHttpPost } from "react-icons/tb";
+import { IoMdSunny } from "react-icons/io";
+import { MdOutlineFullscreen } from "react-icons/md";
+import { MdLanguage } from "react-icons/md";
+import { FaRegUserCircle } from "react-icons/fa";
 const Navigetion = () => {
 
     return (
         <div>
-            {/* others */}
-            <div className="">
-                {/* user */}
-                <div className="flex gap-2 justify-end">
-                    <div className="form-control">
-                        <input type="text" placeholder="Search" className="input input-bordered max-w-fit" />
-                    </div>
-                    <div className="dropdown dropdown-end">
-                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
-                                <img
-                                    alt="Tailwind CSS Navbar component"
-                                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
-                            </div>
-                        </div>
-                        <ul
-                            tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li>
-                                <a className="justify-between">
-                                    Profile
-                                    <span className="badge">New</span>
-                                </a>
-                            </li>
-                            <li><a>Settings</a></li>
-                            <li><a>Logout</a></li>
-                        </ul>
+            <div className="text-xl flex justify-around gap-3 cursor-pointer">
+                {/* add section */}
+                <div className="hover:text-[#438a7a]"><MdAddToQueue /></div>
+                {/* pos */}
+                <div className="hover:text-[#438a7a]"><TbHttpPost/></div>
+                {/* theme */}
+                <div className="hover:text-[#438a7a]"><IoMdSunny/></div>
+                {/* full screen */}
+                <div className="hover:text-[#438a7a]"><MdOutlineFullscreen/></div>
+                {/* language */}
+                <div className="hover:text-[#438a7a]"><MdLanguage/></div>
+                {/* User profile */}
+                <div className="hover:text-[#438a7a]">
+                    <div className="flex gap-2">
+                        <div className=""><FaRegUserCircle/></div>
+                        <div className="-mt-[3px] uppercase text-base">admin</div>
                     </div>
                 </div>
-
             </div>
         </div>
     );

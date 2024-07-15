@@ -1,95 +1,30 @@
 import { NavLink } from 'react-router-dom';
-import { FaTachometerAlt } from "react-icons/fa";
-import './style.css'
+import { LiaTachometerAltSolid } from "react-icons/lia";import './style.css'
 import brand from '../../assets/image/brand/icons8-inventory-32.png'
 
 const Sidebar = () => {
     const Menus = <>
         {/*  */}
-        <li className='text-base capitalize'><NavLink className={'navItem'} to={'/eee'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
+        <li className='text-base capitalize'><NavLink className={'navItem'} to={'/eee'}><span className='px-1'><LiaTachometerAltSolid /></span>deshboard</NavLink>
         </li>
         {/*  */}
         <li className='text-base capitalize'>
             <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
+                <summary><span className='px-1'><LiaTachometerAltSolid /></span>cetagory</summary>
+                <ul className='hasDropdown bg-base-200 bg-opacity-35'>
+                    <li className='text-base capitalize'><NavLink to={'/iii'}><span className='px-1'><LiaTachometerAltSolid /></span>deshboard</NavLink>
                     </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
+                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><LiaTachometerAltSolid /></span>deshboard</NavLink>
                     </li>
 
                 </ul>
             </details>
         </li>
-        {/*  */}
-        <li className='text-base capitalize'>
-            <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-
-                </ul>
-            </details>
-        </li>
-        {/*  */}
-        <li className='text-base capitalize'>
-            <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-
-                </ul>
-            </details>
-        </li>
-        {/*  */}
-        <li className='text-base capitalize'>
-            <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-
-                </ul>
-            </details>
-        </li>
-        {/*  */}
-        <li className='text-base capitalize'>
-            <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-
-                </ul>
-            </details>
-        </li>
-        {/*  */}
-        <li className='text-base capitalize'>
-            <details>
-                <summary><span className='px-1'><FaTachometerAlt /></span>cetagory</summary>
-                <ul className='hasDropdown'>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-                    <li className='text-base capitalize'><NavLink to={'/jijj'}><span className='px-1'><FaTachometerAlt /></span>deshboard</NavLink>
-                    </li>
-
-                </ul>
-            </details>
-        </li>
+       
     </>
     return (
         <div>
-            <div className="w-full ">
+            <div className="w-full px-2">
                 {/* Brand */}
                 <div className="brand h-12 p-2 flex justify-center gap-2">
                     <div className="">
@@ -107,7 +42,6 @@ const Sidebar = () => {
                     </ul>
                 </div>
 
-                <div className="">flglg</div>
             </div>
 
             

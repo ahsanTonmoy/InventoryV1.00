@@ -10,7 +10,13 @@ ul {
 .menu li {
     margin: .6rem 0;
     font-family: "DM Sans", sans-serif;
+    font-weight: 300 !important;
 }
+
+.menu li span{
+    font-size: 24px;
+}
+
 
 .menu li a.active:before {
     content: "";
@@ -33,10 +39,10 @@ ul {
 }
 
 /*  */
-.menu li :hover {
+/* .menu li :hover {
     background-color: transparent !important;
 
-}
+} */
 
 .menu li a:hover,
 .menu summary:hover {
@@ -68,4 +74,11 @@ ul {
     transform-origin: 75% 75%;
     box-shadow: 1px 1px;
     pointer-events: none;
+}
+
+.brand{
+    margin-top: 1rem ;
+}
+.Micon span{
+    font-size: 28px;
 }
